@@ -17,6 +17,7 @@ h1{
 }
 p{
     text-emphasis: none;
+    padding: 0;
 }
 p.error{
     margin: 0 40px;
