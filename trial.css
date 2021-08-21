@@ -1,0 +1,80 @@
+#wrapper{
+    max-width: 960px;
+    max-height: auto;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-shadow: 0px 1px 6px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    padding: 0 0 20px;
+    overflow: hidden;
+    border: 1px solid lightgrey;
+}
+
+#page_banner{
+    background: rgb(240, 237, 224);
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+#page_banner h1, #page_banner p{
+   width: 100%;
+   margin: 10px auto;
+
+}
+
+#page_banner input{
+    width: 90%;
+    max-width:300px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+   margin: 20px auto;
+   display: inline-block;
+   padding: 8px;
+   font-size: 16px;
+    color: #444; 
+}
+
+#booklist,#add-book{
+    margin: 30px;
+}
+
+#booklist ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#booklist li{
+    padding: 20px;
+    border-left: 5px solid #ddd;
+    margin: 20px 10px;
+}
+
+#booklist li:hover{
+    border-color: #9361bf;
+}
+
+.delete{
+    float: right;
+    width: 40px;
+    padding: 6px;
+    display: inline-flex;
+    border-radius: 8px;
+    background-color: rgb(81, 81, 243);
+    color: white;
+}
+
+#add_book input{
+    max-width: 300px;
+    width: 50%;
+    margin: 20px auto;
+    padding: 6px;
+}
+
+button{
+    margin: 20px auto;
+    padding: 6px;
+    background-color: rgb(81, 81, 243);
+    color: white;
+    border-radius: 6px;
+}
