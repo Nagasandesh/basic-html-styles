@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style3.css">
+        <title>Navigation Bars</title>
+    </head>
+    <body>
+    <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.learnliberty.org%2Fwp-content%2Fuploads%2F2016%2F12%2FEncryption-1200-1024x576.png&f=1&nofb=1" class="enc">
+            <ul>
+            <li><a href="#">HOME<span></span><span></span></a></li>
+            <li><a href="#">ABOUT<span></span><span></span></a></li>
+            <li><a href="#">PORTFOLIO<span></span><span></span></a></li>
+            <li><a href="#">CONTACT<span></span><span></span></a></li>
+        </ul>
+        
+        <div>
+        <p class="font">/lKjgslkjgskgjdsg</p>
+        <p class="font">sfgsdfDdfhghdfDfzc</p>
+        <p class="font">dfsdfczxsfyrjjajd</p>
+        <p class="font">SDOISFhjhgzohgsalkgjXUgsgxvkx</p>
+        </div>
+        
+    </body>
+</html> 
