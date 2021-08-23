@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="survey.css">
+        <link href="https://googlefontapis.com/css?family=Girassol|Raleway|Lobster|Special Elite">
+    <title>Survey Form</title>
+    </head>
+    <body>
+        <div id="outside">
+            <form id="survey-form" action="/action_page.php" method="post">
+                <h1 id="title">Application Form</h1>
+                <p id="description"><b>NOTE:</b> Form to be filled within 10 days prior to date</p>
+                <fieldset>
+                    <legend>Personal Details</legend>
+                    <div>
+                        <label for="name">NAME:</label><br>
+                        <input type="text" id="name" placeholder="Enter name" required>
+                    </div><br>
+                    <div>
+                        <label for="address">ADDRESS:</label><br>
+                        <textarea name="address" id="address" cols="30" rows="10" placeholder="Enter address" required></textarea>
+                    </div><br>
+                    <div>
+                        <label for="name">EMAIL:</label><br>
+                        <input type="text" id="email" placeholder="Enter Email" required>
+                    </div><br>
+                    <div>
+                        <label for="name">PHONE NUMBER:</label><br>
+                        <input type="number" id="number" placeholder="Enter 10 digit number" required>
+                    </div><br>
+                    <div>
+                    <p style="text-decoration: underline;">GENDER:</p>
+                    <input type="radio" name="gender" value="male">MALE<br>
+                    <input type="radio" name="gender" value="female">FEMALE<br>
+                    <input type="radio" name="gender" value="others">PREFER NOT TO SAY<br>
+                    </div>
+                    <div>
+                        <br></br>
+                        <label for="birthday">DATE OF BIRTH</label><br>
+                        <input type="date" name="birthday" id="birthday">
+                    </div><br>
+                </fieldset>
+                <fieldset>
+                    <label class="check" for="Gender">Check all fields:</label><br></br>
+                    <input type="checkbox" name="tattoo">Lorem ipsum dolor sit,amet consectetur <br>
+                    <input type="checkbox" name="tattoo">adipisicing elit. Est dolorum beatae<br>
+                    <input type="checkbox" name="tattoo">ullam! Quod nisi dolor distinctio<br>
+                    <input type="checkbox" name="tattoo">aspernatur fugiat culpa quam, dolores vitae laudantium<br>
+                    <input type="checkbox" name="tattoo">provident totam accusantium eveniet saepe iste. Deleniti.<br>
+                </fieldset>
+                <fieldset>
+                    <label for="bio">EXPLAIN ABOUT YOURSELF:</label><br>
+                    <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Describe in about 300 words..." required></textarea>
+                    <br></br>
+                        <div class="attachfiles">
+                            <p>Upload bank statement, SSLC marks card, puc marks card, Degree certificate</p><br>
+                            <label for="files">Files to be attached here:</label>
+                            <button id="files">Attach Files</button>
+                        </div>
+                </fieldset>
+                <div class="submitform">
+                    <input type="submit" value="submit form">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
